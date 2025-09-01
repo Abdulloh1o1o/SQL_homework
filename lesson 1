@@ -32,3 +32,35 @@ MY SQL - bir qurilmada bir qancha server orqali ishlatsa boladi.
 
 ##HARD
 
+7.
+DQL - 
+--QUERY -so'rov
+--SELECT -belgilash, buyruq
+
+DDL
+--CREATE -databaza yaratish
+--ALTER -jadvalni tuzilishini o'zgartirish
+--DROP -jadvaldan olish
+--TRUNCATE -jadvaldagi barcha datani o'chirish
+
+DML
+--INSERT -jadvalga ma'lumotlarni kiritish
+--UPDATE -jadvaldagi ma'lumotlarni yangilash
+--DELETE -ma'lumotlarni o'chirish
+
+DCL
+--GRANT -foydalanuvchiga kirishga ruxsat berish
+--REVOKE -barcha foydalanuvchilarga kirishni taqiqlash
+
+TCL
+--BEGIN TRAN -
+--COMMIT TRAN
+--ROLLBACK TRAN 
+
+INSERT INTO Students (StudentID, NAME, Age) VALUES (2, 'AMIR', 24)
+select * FROM Students
+INSERT INTO Students  VALUES (3, 'Ali', 33)
+select * FROM Students
+INSERT INTO Students  VALUES (4, 'Bob', 27)
+select * FROM Students
+
