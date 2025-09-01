@@ -18,4 +18,17 @@ MySQL(Oracle)
 PostgreSQL(PostgreSQL)
 
 ##MEDIUM
-CREATE DATABASE
+CREATE DATABASE homework2
+USE homework2
+CREATE TABLE Students (StudentID INT, Name VARCHAR(50), Age INT)
+SELECT * 
+FROM Students
+SELECT * FROM Students
+INSERT INTO Students (StudentID, Name, Age) VALUES (1, 'TEMUR', 20)
+SELECT * FROM Students
+
+SSMS - Server bilan ishlaeshda va serverni o'zgartirishda yordam beradi.
+MY SQL - bir qurilmada bir qancha server orqali ishlatsa boladi.
+
+##HARD
+
